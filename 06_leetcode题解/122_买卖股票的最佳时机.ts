@@ -20,6 +20,8 @@
 - 时间复杂度：O(n)
 - 空间复杂度：O(1)
 */
+
+
 function maxProfit(prices: number[]): number {
     let result: number = 0
     for (let i = 0; i < prices.length - 1; i++) {
@@ -32,5 +34,5 @@ function maxProfit(prices: number[]): number {
 };
 
 console.log(
-    maxProfit([1, 2, 3, 4, 5])   // 4
+  maxProfit([1, 2, 3, 4, 5])   // 4
 );
