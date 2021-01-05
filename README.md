@@ -61,6 +61,7 @@
 
 ## 6. leetcode 题解
 
+- [x] 009. [回文数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/009_回文数.ts)
 - [x] 020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/020_有效的括号.ts)
 - [x] 026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/026_删除排序数组中的重复项.ts)
 - [x] 122. [买卖股票的最佳时机](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/122_买卖股票的最佳时机.ts)
