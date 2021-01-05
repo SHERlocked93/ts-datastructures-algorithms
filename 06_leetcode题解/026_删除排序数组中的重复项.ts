@@ -2,7 +2,7 @@
 创建于 2021-01-4 10:36:56
 作者: sherlocked93
 功能: 删除排序数组中的重复项
-地址: https://leetcode-cn.com/leetbook/read/top-interview-questions-easy/x2gy9m/
+地址: https://leetcode-cn.com/problems/remove-duplicates-from-sorted-array/
 
 给定一个排序数组，你需要在 原地 删除重复出现的元素，使得每个元素只出现一次，返回移除后数组的新长度。
 不要使用额外的数组空间，你必须在 原地 修改输入数组 并在使用 O(1) 额外空间的条件下完成。
@@ -52,8 +52,6 @@ function removeDuplicates1(nums: number[]): number {
     }
     return p1 + 1;
 };
-const a = [0, 0, 1, 1, 1, 2, 2, 3, 3, 4]
 console.log(
-    removeDuplicates1(a)   // 5
-    , a
+    removeDuplicates1([0, 0, 1, 1, 1, 2, 2, 3, 3, 4])   // 5
 )
