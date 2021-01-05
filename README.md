@@ -61,10 +61,11 @@
 
 ## 6. leetcode 题解
 
-- [x] 001. [两数之和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/001_两数之和.ts)
-- [x] 009. [回文数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/009_回文数.ts)
-- [x] 020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/020_有效的括号.ts)
-- [x] 026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/026_删除排序数组中的重复项.ts)
-- [x] 122. [买卖股票的最佳时机](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/122_买卖股票的最佳时机.ts)
-- [x] 322. [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/322_零钱兑换.ts)
-- [x] 344. [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/344_反转字符串.ts)
+- [x] 0001. [两数之和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0001_两数之和.ts)
+- [x] 0009. [回文数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0009_回文数.ts)
+- [x] 0020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0020_有效的括号.ts)
+- [x] 0026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0026_删除排序数组中的重复项.ts)
+- [x] 0062. [不同路径](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0062_不同路径.ts)
+- [x] 0122. [买卖股票的最佳时机](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0122_买卖股票的最佳时机.ts)
+- [x] 0322. [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0322_零钱兑换.ts)
+- [x] 0344. [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0344_反转字符串.ts)
