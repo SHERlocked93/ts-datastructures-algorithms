@@ -25,5 +25,5 @@ function selectSort(nums: number[]): number[] {
 }
 
 console.log(
-    selectSort([18, -4, 5, 2, 8, 23, 0, 9, 3, 5])   // [-4, 0, 2, 3, 5, 5, 8, 9, 18, 23]
+    selectSort([18, 10, 5, 2, 8, 23, 13, 9, 3, 5])   // [2, 3, 5, 5, 8, 9, 10, 13, 18, 23]
 )

@@ -33,23 +33,23 @@ function insertSort(nums: number[]): number[] {
 
 debugger
 console.log(
-  insertSort([18, -4, 5, 2, 8, 23, 0, 9, 3, 5])   // [-4, 0, 2, 3, 5, 5, 8, 9, 18, 23]
+  insertSort([18, 10, 5, 2, 8, 23, 13, 9, 3, 5])   // [2, 3, 5, 5, 8, 9, 10, 13, 18, 23]
 )
 
-// // 也可以这样实现，使用js中的数组方法，不具有语言间的普适性
-// function insertSort(nums: number[]): number[] {
-//     const resultNums = [nums.shift()]
-//     for (let i = 0; i < nums.length; i++) {
-//         const anchorNum = nums[i]
-//         for (let j = 0; j < resultNums.length; j++) {
-//             if (anchorNum <= resultNums[j]) {
-//                 resultNums.splice(j, 0, anchorNum)
-//                 break
-//             } else if (j === resultNums.length - 1) {
-//                 resultNums.push(anchorNum)
-//                 break
-//             }
-//         }
-//     }
-//     return resultNums
-// }
+// 也可以这样实现，使用js中的数组方法，不具有语言间的普适性，不过原理类似
+function insertSort1(nums: number[]): number[] {
+    const resultNums = [nums.shift()]
+    for (let i = 0; i < nums.length; i++) {
+        const anchorNum = nums[i]
+        for (let j = 0; j < resultNums.length; j++) {
+            if (anchorNum <= resultNums[j]) {
+                resultNums.splice(j, 0, anchorNum)
+                break
+            } else if (j === resultNums.length - 1) {
+                resultNums.push(anchorNum)
+                break
+            }
+        }
+    }
+    return resultNums
+}
