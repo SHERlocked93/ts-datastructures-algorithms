@@ -61,5 +61,6 @@
 
 ## 6. leetcode 题解
 
-- [ ] 026. 删除排序数组中的重复项
-- [ ] 122. 买卖股票的最佳时机
+- [x] 020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode%E9%A2%98%E8%A7%A3/020_%E6%9C%89%E6%95%88%E7%9A%84%E6%8B%AC%E5%8F%B7.ts)
+- [x] 026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode%E9%A2%98%E8%A7%A3/026_%E5%88%A0%E9%99%A4%E6%8E%92%E5%BA%8F%E6%95%B0%E7%BB%84%E4%B8%AD%E7%9A%84%E9%87%8D%E5%A4%8D%E9%A1%B9.ts)
+- [x] 122. [买卖股票的最佳时机](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode%E9%A2%98%E8%A7%A3/122_%E4%B9%B0%E5%8D%96%E8%82%A1%E7%A5%A8%E7%9A%84%E6%9C%80%E4%BD%B3%E6%97%B6%E6%9C%BA.ts)

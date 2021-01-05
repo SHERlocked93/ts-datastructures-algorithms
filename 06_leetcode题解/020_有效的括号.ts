@@ -25,9 +25,9 @@ function isValid(str: string): boolean {
     const stack = []
     const map = { '(': -1, ')': 1, '{': -2, '}': 2, '[': -3, ']': 3 }
     for (let i = 0; i < str.length; i++) {
-        if (map[str[i]] < 0) {
+        if (map[str[i]] < 0) {        // 遇到左元素入栈
             stack.push(map[str[i]])
-        } else {
+        } else {                      // 遇到右元素与栈顶元素判断是不是对应
             if (i === 0 && map[str[i]] > 0) return false
             if (stack[stack.length - 1] === -map[str[i]]) {
                 stack.pop()
