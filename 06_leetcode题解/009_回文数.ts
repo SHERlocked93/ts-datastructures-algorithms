@@ -33,7 +33,7 @@
 - 空间复杂度：O(1)
 */
 
-
+// 解法1，使用js的字符串方法
 function isPalindrome(x: number): boolean {
     if (x < 0 || (x % 10 === 0 && x !== 0)) {return false}
     const xStr = x.toString().split('').reverse().join('')
@@ -45,7 +45,7 @@ console.log(
 )
 
 
-/* 具有普适性的做法是判断奇偶数后将数字的一半取出，跟前半部分对比 */
+// 解法2，具有普适性的做法是判断奇偶数后将数字的一半取出，跟前半部分对比
 function isPalindrome1(x: number): boolean {
     if (x < 0 || (x % 10 === 0 && x !== 0)) {return false}
     const isOdd = !!(x & 1)

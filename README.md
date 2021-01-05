@@ -9,7 +9,7 @@
 - [ ] 1. 空间复杂度与时间复杂度
 - [ ] 2. 稳定性
 
-## 2. 数
+## 2. 数据结构
 
 - [ ] 1. 栈（Stack）
 - [ ] 2. 队列（Queue）
@@ -61,6 +61,7 @@
 
 ## 6. leetcode 题解
 
+- [x] 001. [两数之和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/001_两数之和.ts)
 - [x] 009. [回文数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/009_回文数.ts)
 - [x] 020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/020_有效的括号.ts)
 - [x] 026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/026_删除排序数组中的重复项.ts)
