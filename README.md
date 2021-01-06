@@ -62,6 +62,7 @@
 ## 6. leetcode 题解
 
 - [x] 0001. [两数之和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0001_两数之和.ts)
+- [x] 0005. [最长回文子串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0005_最长回文子串.ts)
 - [x] 0009. [回文数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0009_回文数.ts)
 - [x] 0020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0020_有效的括号.ts)
 - [x] 0026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0026_删除排序数组中的重复项.ts)
