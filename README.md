@@ -62,27 +62,27 @@
 
 ## 6. 其他经典算法和思想
 
-- [ ] 1. 广度优先搜索（BFS）与深度优先搜索（DFS）
-- [ ] 2. 狄克斯特拉算法
-- [ ] 3. K最近邻算法
-- [ ] 4. 滑动窗口思想
+- [ ] 1. 狄克斯特拉算法
+- [ ] 2. K最近邻算法
+- [ ] 3. 滑动窗口思想
+- [ ] 4. 广度优先搜索（BFS）与深度优先搜索（DFS）
 
 
 ## 7. leetcode 题解
 
-- [x] 0001. [两数之和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0001_两数之和.ts)
-- [x] 0005. [最长回文子串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0005_最长回文子串.ts)
-- [x] 0007. [整数反转](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0007_整数反转.ts)
-- [x] 0008. [字符串转换整数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0008_字符串转换整数.ts)
-- [x] 0009. [回文数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0009_回文数.ts)
-- [x] 0020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0020_有效的括号.ts)
-- [x] 0026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0026_删除排序数组中的重复项.ts)
-- [x] 0062. [不同路径](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0062_不同路径.ts)
-- [x] 0122. [买卖股票的最佳时机](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0122_买卖股票的最佳时机.ts)
-- [x] 0190. [颠倒二进制位](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0190_颠倒二进制位.ts)
-- [x] 0191. [位1的个数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0191_位1的个数.ts)
-- [x] 0322. [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0322_零钱兑换.ts)
-- [x] 0344. [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/06_leetcode题解/0344_反转字符串.ts)
+- [x] 0001. [两数之和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0001_两数之和.ts)
+- [x] 0005. [最长回文子串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0005_最长回文子串.ts)
+- [x] 0007. [整数反转](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0007_整数反转.ts)
+- [x] 0008. [字符串转换整数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0008_字符串转换整数.ts)
+- [x] 0009. [回文数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0009_回文数.ts)
+- [x] 0020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0020_有效的括号.ts)
+- [x] 0026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0026_删除排序数组中的重复项.ts)
+- [x] 0062. [不同路径](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0062_不同路径.ts)
+- [x] 0122. [买卖股票的最佳时机](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0122_买卖股票的最佳时机.ts)
+- [x] 0190. [颠倒二进制位](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0190_颠倒二进制位.ts)
+- [x] 0191. [位1的个数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0191_位1的个数.ts)
+- [x] 0322. [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0322_零钱兑换.ts)
+- [x] 0344. [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0344_反转字符串.ts)
 
 
 ## 8. 行业应用
