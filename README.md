@@ -81,6 +81,7 @@
 
 
 ### 7.2 递归
+- [x] 0050. [Pow(x,n)](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0050_Pow(x,n).ts)
 - [x] 0509. [斐波那契数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0509_斐波那契数.ts)
 - [x] 面试题08.06. [汉诺塔问题](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/面试题08.06_汉诺塔问题.ts)
 

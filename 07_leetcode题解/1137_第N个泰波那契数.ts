@@ -2,7 +2,7 @@
 创建于 2021年1月13日 下午3:56:09
 作者: sherlocked93
 功能: 第N个泰波那契数
-标签: 递归
+标签: 动态规划
 地址: https://leetcode-cn.com/problems/n-th-tribonacci-number
 
 泰波那契序列Tn定义如下：
