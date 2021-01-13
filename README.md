@@ -60,12 +60,13 @@
 - [ ] 6. 分块查找（Block Search）
 - [ ] 7. 哈希查找（Hash Search）
 
-## 6. 其他经典算法和思想
+## 6. 其他经典算法难题和思想
 
 - [ ] 1. 狄克斯特拉算法
-- [ ] 2. K最近邻算法
+- [ ] 2. K最近邻算法（KNN）
 - [ ] 3. 滑动窗口思想
 - [ ] 4. 广度优先搜索（BFS）与深度优先搜索（DFS）
+- [ ] 5. 线性规划
 
 
 ## 7. leetcode 题解
@@ -83,6 +84,7 @@
 - [x] 0191. [位1的个数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0191_位1的个数.ts)
 - [x] 0322. [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0322_零钱兑换.ts)
 - [x] 0344. [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0344_反转字符串.ts)
+- [x] 面试题08.06. [汉诺塔问题](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/面试题08.06_汉诺塔问题.ts)
 
 
 ## 8. 行业应用
@@ -92,3 +94,7 @@
 - [ ] 限流算法
 - [ ] 推介算法
 - [ ] 机器学习
+- [ ] 输入法猜测
+- [ ] 垃圾邮件过滤器
+- [ ] 论文查重算法
+- [ ] 光学字符识别 OCR
