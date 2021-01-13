@@ -2,6 +2,7 @@
 创建于 2021-01-4 21:5:5
 作者: sherlocked93
 功能: 买卖股票的最佳时机
+标签: 贪心算法
 地址: https://leetcode-cn.com/problems/best-time-to-buy-and-sell-stock-ii/
 
 给定一个数组，它的第 i 个元素是一支给定股票第 i 天的价格。
