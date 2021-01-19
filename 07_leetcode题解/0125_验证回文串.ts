@@ -16,20 +16,25 @@
 输出: false
 
 ## 思路
+### 方法一，转换成数组
 入栈之后，也可以取巧用 .join.reverse()
 1. 遍历入栈，再遍历栈
 
+### 方法二，双指针法
+1. 一个指针从前往后，一个指针从后往前
+
 ## 复杂度分析
 - 时间复杂度：O(n) 只有一层循环
-- 空间复杂度：O()
+- 空间复杂度：O(n) 第二种方法 O(1)
 */
 
+// 方法一，入栈再遍历判断
 function isPalindrome(s: string): boolean {
     const charStack: string[] = []
     const regExp: RegExp = /[a-zA-Z0-9]/
     for (let i = 0; i < s.length; i++) {
         if (regExp.test(s[i])) {
-            charStack.push(s[i].toLocaleLowerCase())
+            charStack.push(s[i].toLowerCase())
         }
     }
     const charStackSize = charStack.length
@@ -41,6 +46,30 @@ function isPalindrome(s: string): boolean {
     return true
 }
 
+// 方法二，双指针法，直接在原字符串上判断
+function isPalindrome1(s: string): boolean {
+    if (s === '') {return true}
+    let i: number = 0
+      , j: number = s.length - 1
+      , charLeft: string = s[i].toLowerCase()
+      , charRight: string = s[j].toLowerCase()
+    const regExp: RegExp = /[a-z0-9]/
+    while (i < j) {
+        while (!regExp.test(charLeft)) {
+            charLeft = s[i++].toLowerCase()
+        }
+        while (!regExp.test(charRight)) {
+            charRight = s[j--].toLowerCase()
+        }
+        if (charLeft === charRight) {
+            charLeft = s[i++].toLowerCase()
+            charRight = s[j--].toLowerCase()
+        } else return false
+    }
+    return true
+}
+
+debugger
 console.log(
-  isPalindrome("A man, a plan, a canal: Panama")    // true
+  isPalindrome1("")    // true
 )
