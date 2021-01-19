@@ -12,22 +12,23 @@
 
 ## 2. 数据结构
 
-- [ ] 1. 栈（Stack）
-- [ ] 2. 队列（Queue）
-- [ ] 3. 链表（Linked List）
-- [ ] 4. 树（Tree）
-- [ ] 5. 堆（Heap）
-- [ ] 6. 字典（Dictionary）
-- [ ] 7. 散列表（Hash Table）
-- [ ] 8. 图（Graph）
+- [ ] 1. 数组（Array）
+- [ ] 2. 栈（Stack）
+- [ ] 3. 队列（Queue）
+- [ ] 4. 链表（Linked List）
+- [ ] 5. 树（Tree）
+- [ ] 6. 堆（Heap）
+- [ ] 7. 字典（Dictionary）
+- [ ] 8. 哈希表（Hash Table）
+- [ ] 9. 图（Graph）
 
 
 ## 3. 基本算法思维
 
-- [ ] 1. 枚举算法
-- [ ] 2. 递归算法
-- [ ] 3. 回溯算法
-- [ ] 4. 分治算法
+- [ ] 1. 枚举
+- [ ] 2. 递归
+- [ ] 3. 回溯
+- [ ] 4. 分治
 - [ ] 5. 贪心算法
 - [ ] 6. 试探算法
 - [ ] 7. 模拟算法
@@ -77,6 +78,7 @@
 - [x] 0008. [字符串转换整数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0008_字符串转换整数.ts)
 - [x] 0026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0026_删除排序数组中的重复项.ts)
 - [x] 0122. [买卖股票的最佳时机](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0122_买卖股票的最佳时机.ts)
+- [x] 0125. [验证回文串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0125_验证回文串.ts)
 - [x] 0344. [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0344_反转字符串.ts)
 
 
