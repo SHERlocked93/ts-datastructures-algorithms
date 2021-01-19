@@ -49,27 +49,41 @@ function isPalindrome(s: string): boolean {
 // 方法二，双指针法，直接在原字符串上判断
 function isPalindrome1(s: string): boolean {
     if (s === '') {return true}
-    let i: number = 0
-      , j: number = s.length - 1
-      , charLeft: string = s[i].toLowerCase()
-      , charRight: string = s[j].toLowerCase()
+    let i: number = 0, charLeft: string = s[i].toLowerCase()
+      , j: number = s.length - 1, charRight: string = s[j].toLowerCase()
     const regExp: RegExp = /[a-z0-9]/
     while (i < j) {
         while (!regExp.test(charLeft)) {
-            charLeft = s[i++].toLowerCase()
+            charLeft = s[++i].toLowerCase()
+            if (i === j) {return true}
         }
         while (!regExp.test(charRight)) {
-            charRight = s[j--].toLowerCase()
+            charRight = s[--j].toLowerCase()
+            if (i === j) {return true}
         }
         if (charLeft === charRight) {
-            charLeft = s[i++].toLowerCase()
-            charRight = s[j--].toLowerCase()
+            charLeft = s[++i].toLowerCase()
+            charRight = s[--j].toLowerCase()
         } else return false
     }
     return true
 }
 
-debugger
+// 方法三，先过滤成字符串
+function isPalindrome2(s: string): boolean {
+    const resStrArr: string[] | null = s.toLowerCase().match(/[a-z0-9]+/g)
+    if (!resStrArr) {return true}
+    const resStr: string = resStrArr.join('')
+    const resStrSize: number = resStr.length
+    if (resStr === '') {return true}
+    for (let i = 0; i < ~~(resStrSize / 2); i++) {
+        if (resStr[i] !== resStr[resStrSize - 1 - i]) {
+            return false
+        }
+    }
+    return true
+}
+
 console.log(
-  isPalindrome1("")    // true
+  isPalindrome2("A man, a plan, a canal: Panama")    // true
 )
