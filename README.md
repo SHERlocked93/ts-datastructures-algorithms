@@ -69,52 +69,7 @@
 - [ ] 4. 广度优先搜索（BFS）与深度优先搜索（DFS）
 - [ ] 5. 线性规划
 
-
-## 7. leetcode 题解
-由于 JS/TS 中字符串和数组太多相似，所以这里把数组与字符串归为一类。
-
-难易程度：
-
-1. ★☆☆ 简单难度
-2. ★★☆ 中等难度
-3. ★★★ 困难难度
-
-推介刷题的时候按照类别从易到难刷，下面按照从易到难的顺序按类别分类，可以直接按照这个顺序刷
-
-### 7.1 数组 & 字符串
-- [x] ★☆☆ 0001. [两数之和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0001_两数之和.ts)
-- [x] ★☆☆ 0026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0026_删除排序数组中的重复项.ts)
-- [x] ★☆☆ 0122. [买卖股票的最佳时机](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0122_买卖股票的最佳时机.ts)
-- [x] ★☆☆ 0125. [验证回文串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0125_验证回文串.ts)
-- [x] ★☆☆ 0344. [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0344_反转字符串.ts)
-- [x] ★★☆ 0008. [字符串转换整数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0008_字符串转换整数.ts)
-
-
-### 7.2 递归
-- [x] ★☆☆ 0050. [Pow(x,n)](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0050_Pow(x,n).ts) ★★☆
-- [x] ★☆☆ 0509. [斐波那契数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0509_斐波那契数.ts)
-- [x] ★☆☆ 面试题08.06. [汉诺塔问题](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/面试题08.06_汉诺塔问题.ts)
-
-
-### 7.3 数学
-- [x] ★☆☆ 0007. [整数反转](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0007_整数反转.ts)
-- [x] ★☆☆ 0009. [回文数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0009_回文数.ts)
-- [x] ★☆☆ 0190. [颠倒二进制位](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0190_颠倒二进制位.ts)
-- [x] ★☆☆ 0191. [位1的个数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0191_位1的个数.ts)
-
-
-### 7.4 动态规划
-- [x] ★☆☆ 1137. [第N个泰波那契数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/1137_第N个泰波那契数.ts)
-- [x] ★★☆ 0005. [最长回文子串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0005_最长回文子串.ts)
-- [x] ★★☆ 0062. [不同路径](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0062_不同路径.ts)
-- [x] ★★☆ 0322. [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0322_零钱兑换.ts)
-
-
-### 7.5 栈 & 队列
-- [x] ★☆☆ 0020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/07_leetcode题解/0020_有效的括号.ts)
-
-
-## 8. 行业应用
+## 7. 行业应用
 
 - [ ] GC算法
 - [ ] 操作系统任务调度算法
@@ -125,3 +80,46 @@
 - [ ] 垃圾邮件过滤器
 - [ ] 论文查重算法
 - [ ] 光学字符识别 OCR
+
+## 8. leetcode 题解
+由于 JS/TS 中字符串和数组太多相似，所以这里把数组与字符串归为一类。
+
+难易程度：
+
+1. ★☆☆ 简单难度
+2. ★★☆ 中等难度
+3. ★★★ 困难难度
+
+推介刷题的时候按照类别从易到难刷，下面按照从易到难的顺序按类别分类，可以直接按照这个顺序刷
+
+### 8.1 数组 & 字符串
+- [x] ★☆☆ 0001. [两数之和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0001_两数之和.ts)
+- [x] ★☆☆ 0026. [删除排序数组中的重复项](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0026_删除排序数组中的重复项.ts)
+- [x] ★☆☆ 0122. [买卖股票的最佳时机](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0122_买卖股票的最佳时机.ts)
+- [x] ★☆☆ 0125. [验证回文串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0125_验证回文串.ts)
+- [x] ★☆☆ 0344. [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0344_反转字符串.ts)
+- [x] ★★☆ 0008. [字符串转换整数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0008_字符串转换整数.ts)
+
+
+### 8.2 递归
+- [x] ★☆☆ 0050. [Pow(x,n)](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0050_Pow(x,n).ts) ★★☆
+- [x] ★☆☆ 0509. [斐波那契数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0509_斐波那契数.ts)
+- [x] ★☆☆ 面试题08.06. [汉诺塔问题](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/面试题08.06_汉诺塔问题.ts)
+
+
+### 8.3 数学
+- [x] ★☆☆ 0007. [整数反转](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0007_整数反转.ts)
+- [x] ★☆☆ 0009. [回文数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0009_回文数.ts)
+- [x] ★☆☆ 0190. [颠倒二进制位](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0190_颠倒二进制位.ts)
+- [x] ★☆☆ 0191. [位1的个数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0191_位1的个数.ts)
+
+
+### 8.4 动态规划
+- [x] ★☆☆ 1137. [第N个泰波那契数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/1137_第N个泰波那契数.ts)
+- [x] ★★☆ 0005. [最长回文子串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0005_最长回文子串.ts)
+- [x] ★★☆ 0062. [不同路径](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0062_不同路径.ts)
+- [x] ★★☆ 0322. [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0322_零钱兑换.ts)
+
+
+### 8.5 栈 & 队列
+- [x] ★☆☆ 0020. [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/0020_有效的括号.ts)
