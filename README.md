@@ -145,6 +145,7 @@
 > | 152  | [乘积最大子数组](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0152_乘积最大子数组.ts) | ★★☆    |
 > | 322  | [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0322_零钱兑换.ts) | ★★☆    |
 > | 516  | [最长回文子序列](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0516_最长回文子序列.ts) | ★★☆    |
+> | 1143 | [最长公共子序列](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/1143_最长公共子序列.ts) | ★★☆    |
 
 
 ### 8.6 贪心
