@@ -103,6 +103,7 @@
 > | 344  | [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0344_反转字符串.ts) | ★☆☆    |
 > | 8    | [字符串转换整数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0008_字符串转换整数.ts) | ★★☆    |
 
+
 ### 8.2 递归
 
 > | 编号         | 题目                                                         | 难度 ↓ |
@@ -110,6 +111,7 @@
 > | 509         | [斐波那契数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0509_斐波那契数.ts) | ★☆☆    |
 > | 面试题08.06  | [汉诺塔问题](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/面试题08.06_汉诺塔问题.ts) | ★☆☆    |
 > | 50          | [Pow(x,n)](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0050_Pow(x,n).ts) | ★★☆    |
+
 
 ### 8.3 数学
 
@@ -120,7 +122,15 @@
 > | 190  | [颠倒二进制位](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0190_颠倒二进制位.ts) | ★☆☆    |
 > | 191  | [位1的个数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0191_位1的个数.ts) | ★☆☆    |
 
-### 8.4 动态规划
+
+### 8.4 栈 & 队列
+
+> | 编号 | 题目                                                         | 难度 ↓ |
+> | ---- | ------------------------------------------------------------ | ------ |
+> | 20   | [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0020_有效的括号.ts) | ★☆☆    |
+
+
+### 8.5 动态规划
 
 > | 编号 | 题目                                                         | 难度 ↓ |
 > | ---- | ------------------------------------------------------------ | ------ |
@@ -132,11 +142,6 @@
 > | 152  | [乘积最大子数组](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0152_乘积最大子数组.ts) | ★★☆    |
 > | 322  | [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0322_零钱兑换.ts) | ★★☆    |
 
-### 8.5 栈 & 队列
-
-> | 编号 | 题目                                                         | 难度 ↓ |
-> | ---- | ------------------------------------------------------------ | ------ |
-> | 20   | [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0020_有效的括号.ts) | ★☆☆    |
 
 ### 8.6 贪心
 

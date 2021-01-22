@@ -17,21 +17,31 @@
 ## 思路
 ### 方法一
 动态规划
-1. 转移方程 f[i] = Max(nums[i], f[i-1]+nums[i]) 注意不能将 f[i-1] 纳入，否则就是不连续的子数组了
+1. 转移方程 f[i] = Max(a[i], f[i-1]+a[i]) 注意不能将 f[i-1] 纳入，否则就是不连续的子数组了
 2. 在转移的过程中记录下来最大和 res
 
 - 时间复杂度：O(n) 一层循环
 - 空间复杂度：O(n) 使用了数组来保存结果
+
+这个基础上可以优化一下，由于f[i]只与f[i-1]有关，所以可以使用一个变量来存储 f[i-1]，从而节约空间复杂度
+代码上就是把f[i]替换成一个变量 ，把f[i-1]替换成另一个变量
+此时
+- 时间复杂度：O(n) 一层循环
+- 空间复杂度：O(1) 使用了有限个变量
+
+### 方法二
+分治、线段树
 */
 
 // 方法一，动态规划
 function maxSubArray(nums: number[]): number {
     if (nums.length === 1) return nums[0]
-    const f = [nums[0]]
-    let res = 0
+    let pre = nums[0]
+    let curr = nums[0]
+    let res = nums[0]
     for (let i = 1; i < nums.length; i++) {
-        f[i] = Math.max(f[i - 1] + nums[i], nums[i])
-        res = Math.max(f[i], res)
+        curr = Math.max(pre + nums[i], nums[i])
+        res = Math.max(curr, res)
     }
     return res
 };
