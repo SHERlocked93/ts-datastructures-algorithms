@@ -124,6 +124,7 @@
 
 > | 编号 | 题目                                                         | 难度 ↓ |
 > | ---- | ------------------------------------------------------------ | ------ |
+> | 53   | [最大子序和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/53_最大子序和.ts) | ★☆☆    |
 > | 1137 | [第N个泰波那契数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/1137_第N个泰波那契数.ts) | ★☆☆    |
 > | 5    | [最长回文子串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0005_最长回文子串.ts) | ★★☆    |
 > | 55   | [跳跃游戏](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0055_跳跃游戏.ts) | ★★☆    |
