@@ -131,6 +131,9 @@
 
 
 ### 8.5 动态规划
+有一点要注意：
+1. 子串，必须是连在一起的子字符串，比如 `abc` 的 `ab`、`bc`
+2. 子序列，指的是由原字符串在不改变字符的相对顺序的情况下删除某些字符（也可以不删除任何字符）后组成的新字符串，比如 `abc` 的 `ac` 就属于子序列，子串一定是子序列，但子序列不一定是子串
 
 > | 编号 | 题目                                                         | 难度 ↓ |
 > | ---- | ------------------------------------------------------------ | ------ |
@@ -141,6 +144,7 @@
 > | 62   | [不同路径](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0062_不同路径.ts) | ★★☆    |
 > | 152  | [乘积最大子数组](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0152_乘积最大子数组.ts) | ★★☆    |
 > | 322  | [零钱兑换](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0322_零钱兑换.ts) | ★★☆    |
+> | 516  | [最长回文子序列](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0516_最长回文子序列.ts) | ★★☆    |
 
 
 ### 8.6 贪心
