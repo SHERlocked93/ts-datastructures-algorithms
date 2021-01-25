@@ -2,9 +2,9 @@
 
 本教程是在下从零入门学算法的沉淀，希望能帮助到你～ 🥳
 
-> PS: 在下[博客](https://github.com/SHERlocked93/blog)还有一些其他的文章，欢迎关注～
-
 ![数据结构与算法](https://cdn.jsdelivr.net/gh/SHERlocked93/pic@master/upic/数据结构与算法-20210125-D1CrFt.png)
+
+> PS: 在下[博客](https://github.com/SHERlocked93/blog)还有一些其他的文章，欢迎关注～
 
 ## 1. 基本概念
 
