@@ -11,7 +11,7 @@ const binaryTree2 = {   // 二叉树
     }
 }
 
-// 获取深度，使用队列
+// 获取深度，使用队列+迭代的方式
 function getDeepthDfs(tree) {
     let size = 0
     if (!tree) {return 0}

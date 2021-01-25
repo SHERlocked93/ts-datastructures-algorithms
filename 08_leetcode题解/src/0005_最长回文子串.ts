@@ -26,29 +26,29 @@
 - 空间复杂度：O(n^2)
 */
 
-// 方法一、使用动态规划的方法
-function longestPalindrome(s: string): string {
+
+function longestPalindrome1(s: string): string {
+    if (!s.length) {return ''}
     const f: boolean[][] = []
-    for (let i = 0; i < s.length; i++) {
+    let maxLength = 1    // 最长长度
+    let maxLeft = 0      // 最长长度时的idx
+    for (let i = s.length - 1; i >= 0; i--) {
         f[i] = []
-    }
-    let maxLength = 1            // 默认最长长度为第一个字符，这也是为什么边界条件要加一
-    let maxLengthIdx = [0, 1]    // 默认条件为第一个字符
-    
-    for (let j = 0; j < s.length; j++) {      // 状态转移的上一个状态是f[i+1][j-1]，要保证在计算i、j时f[i+1][j-1]已经被算出来
-        for (let i = j; i >= 0; i--) {
-            f[i][j] = s[i] === s[j] && (j - i < 3 || f[i + 1][j - 1])
-            if (f[i][j]) {
-                if (j - i + 1 > maxLength) {
+        for (let j = i; j < s.length; j++) {
+            if (i === j) {
+                f[i][j] = true
+            } else if (s[i] === s[j]) {
+                f[i][j] = (j - i < 3) || f[i + 1][j - 1]
+                if (f[i][j] && (j - i + 1 > maxLength)) {
                     maxLength = j - i + 1
-                    maxLengthIdx = [i, j + 1]
+                    maxLeft = i
                 }
-            }
+            } else f[i][j] = false
         }
     }
-    return s.slice(...maxLengthIdx)
+    return s.slice(maxLeft, maxLeft + maxLength)
 };
 
 console.log(
-  longestPalindrome("aacabdkacaa")   // "aca"
+  longestPalindrome1("cbbd")   // "aca"
 )
