@@ -102,6 +102,11 @@
 
 ### 8.1 数组 & 字符串
 
+关于字符串有一点要注意：
+
+1. 子串，必须是连在一起的子字符串，比如 `abc` 的 `ab`、`bc`
+2. 子序列，指的是由原字符串在不改变字符的相对顺序的情况下删除某些字符（也可以不删除任何字符）后组成的新字符串，比如 `abc` 的 `ac` 就属于子序列，子串一定是子序列，但子序列不一定是子串
+
 > | 编号 | 题目                                                         | 难度 ↓ |
 > | ---- | ------------------------------------------------------------ | ------ |
 > | 1    | [两数之和](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0001_两数之和.ts) | ★☆☆    |
@@ -112,7 +117,13 @@
 > | 977  | [有序数组的平方](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0977_有序数组的平方.ts) | ★☆☆    |
 > | 8    | [字符串转换整数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0008_字符串转换整数.ts) | ★★☆    |
 
-### 8.2 递归
+### 8.2 散列表
+
+> | 编号 | 题目                                                         | 难度 ↓ |
+> | ---- | ------------------------------------------------------------ | ------ |
+> | 217   | [存在重复元素](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0217_存在重复元素.ts) | ★☆☆    |
+
+### 8.3 递归
 
 > | 编号         | 题目                                                         | 难度 ↓ |
 > | ----------- | ------------------------------------------------------------ | ------ |
@@ -120,7 +131,7 @@
 > | 面试题08.06  | [汉诺塔问题](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/面试题08.06_汉诺塔问题.ts) | ★☆☆    |
 > | 50          | [Pow(x,n)](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0050_Pow(x,n).ts) | ★★☆    |
 
-### 8.3 数学
+### 8.4 数学
 
 > | 编号  | 题目                                                         | 难度 ↓ |
 > | ---- | ------------------------------------------------------------ | ------ |
@@ -129,18 +140,13 @@
 > | 190  | [颠倒二进制位](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0190_颠倒二进制位.ts) | ★☆☆    |
 > | 191  | [位1的个数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0191_位1的个数.ts) | ★☆☆    |
 
-### 8.4 栈 & 队列
+### 8.5 栈 & 队列
 
 > | 编号 | 题目                                                         | 难度 ↓ |
 > | ---- | ------------------------------------------------------------ | ------ |
 > | 20   | [有效的括号](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0020_有效的括号.ts) | ★☆☆    |
 
-### 8.5 动态规划
-
-有一点要注意：
-
-1. 子串，必须是连在一起的子字符串，比如 `abc` 的 `ab`、`bc`
-2. 子序列，指的是由原字符串在不改变字符的相对顺序的情况下删除某些字符（也可以不删除任何字符）后组成的新字符串，比如 `abc` 的 `ac` 就属于子序列，子串一定是子序列，但子序列不一定是子串
+### 8.6 动态规划
 
 > | 编号 | 题目                                                         | 难度 ↓ |
 > | ---- | ------------------------------------------------------------ | ------ |
@@ -154,11 +160,13 @@
 > | 516  | [最长回文子序列](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0516_最长回文子序列.ts) | ★★☆    |
 > | 1143 | [最长公共子序列](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/1143_最长公共子序列.ts) | ★★☆    |
 
-### 8.6 贪心
+### 8.7 贪心
 
 > | 编号 | 题目                                                         | 难度 ↓ |
 > | ---- | ------------------------------------------------------------ | ------ |
 > | 55   | [跳跃游戏](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0055_跳跃游戏.ts) | ★★☆    |
+
+
 
 ## 后记
 
