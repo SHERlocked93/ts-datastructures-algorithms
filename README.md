@@ -2,7 +2,7 @@
 
 本教程是在下从零入门学算法的沉淀，希望能帮助到你～ 🥳
 
-![数据结构与算法](https://cdn.jsdelivr.net/gh/SHERlocked93/pic@master/upic/数据结构与算法-20210125-D1CrFt.png)
+![数据结构与算法](https://cdn.jsdelivr.net/gh/SHERlocked93/pic@master/upic/数据结构与算法-20210131-eV2PrG.png)
 
 > PS: 在下[博客](https://github.com/SHERlocked93/blog)还有一些其他的文章，欢迎关注～
 

@@ -33,7 +33,7 @@ nums 已按 非递减顺序 排序
 
 复杂度分析：
 - 时间复杂度：O(n) 最多只有一层循环
-- 空间复杂度：O(n) 只使用了两个指针变量和一个数组来存结果
+- 空间复杂度：O(n) 使用了两个指针变量和一个数组来存结果
 */
 
 function sortedSquares(nums: number[]): number[] {
@@ -60,6 +60,22 @@ function sortedSquares(nums: number[]): number[] {
     return res
 }
 
+function sortedSquares1(nums: number[]): number[] {
+    let leftIdx: number = 0
+    let rightIdx: number = nums.length - 1
+    const res: number[] = []
+    while (leftIdx <= rightIdx) {
+        if (Math.abs(nums[leftIdx]) < Math.abs(nums[rightIdx])) {
+            res.unshift(nums[rightIdx] ** 2)
+            rightIdx--
+        } else {
+            res.unshift(nums[leftIdx] ** 2)
+            leftIdx++
+        }
+    }
+    return res
+}
+
 console.log(
-  sortedSquares([-7, -3, 2, 3, 11])    // [4,9,9,49,121]
+  sortedSquares1([-7, -3, 2, 3, 11])    // [4,9,9,49,121]
 )
