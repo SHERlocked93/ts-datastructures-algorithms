@@ -31,19 +31,33 @@
 0 <= k <= 105
 
 ## 思路
-### 方法一
-1. for循环，将i放到数组的(k+i)%length上
 
-复杂度分析：
-- 时间复杂度：O(n) 存在一次解构，concat也是一样
-- 空间复杂度：O(n)
 
-### 方法二
-1. 可以把数组当成队列，从数组尾部pop，在头部unshift
+#### 方法一
 
-复杂度分析：
-- 时间复杂度：O(n) 存在一次遍历
-- 空间复杂度：O(1) 只用一个变量来存pop的数据
+普通的方法就是，使用一个 `for` 循环，将索引 `i` 的元素放到数组的 `(k + i) % length` 上。
+不过这种方法需要先用一个数组来存一下原数组，因为数组里数字的顺序变了，所以时间复杂度为 `O(n)` ，空间复杂度为 `O(n)`。
+
+#### 方法二，队列
+
+使用队列的思想，从数组尾部 `pop` 元素，在头部 `unshift` 放到数组头部。
+这种方式使用了 JS 提供的方法，在其他语言里面不一定能实现，不过这种方式的时间复杂度 `O(n*k)` 空间复杂度 `O(1)`，虽然看起来比较简洁，但时间复杂度还是有点高。
+
+#### 方法三，三次翻转法
+
+经典的三次翻转法
+
+1. 先把整个数组翻转
+2. 然后把 `[0, k-1]` 翻转
+3. 最后把 `[k-1, n - 1]` 翻转
+
+这是可以在数学上被证明的，感兴趣小伙伴自己证明一下看看～
+
+
+#### 方法四，虚拟数组平移
+
+其实如果不限制空间复杂度，假设数组的左边还有同样一个数组，数组向右循环右移 k 位就相当于数组范围向左取 k 个，题目要求的是原地修改，因此使用 `splice` 来原地改变 nums 原数组
+
 */
 
 // for循环循环覆盖
@@ -53,7 +67,6 @@ function rotate1(nums: number[], k: number): void {
     for (let i = 0; i < nums.length; i++) {
         nums[(k + i) % length] = numsCopy[i]
     }
-    console.log(nums)
 }
 
 // 队列补位
@@ -68,19 +81,29 @@ function rotate(nums: number[], k: number): void {
 function rotate2(nums: number[], k: number): void {
     // 数组翻转某一部分
     function reverse(nums: number[], start: number, end: number): void {
-        for (let i = start; i <= ~~((end - start) / 2) + start; i++) {
-            [nums[i], nums[end - i + start]] = [nums[end - i + start], nums[i]]
+        while (start < end) {
+            [nums[start], nums[end]] = [nums[end], nums[start]]
+            start++
+            end--
         }
     }
     
     const length = nums.length
-    for (let i = 0; i < ~~(length / 2); i++) {  // 先反转
-        [nums[i], nums[length - 1 - i]] = [nums[length - 1 - i], nums[i]]
-    }
-    let kEqual = k % nums.length
+    let kEqual = k % length
+    reverse(nums, 0, length - 1)
     if (kEqual === 0) {return void (0)}
     reverse(nums, 0, kEqual - 1)
     reverse(nums, kEqual, length - 1)
 };
 
-rotate2([1, 2, 3, 4, 5, 6, 7], 3)    // [5,6,7,1,2,3,4]
+function rotate3(nums: number[], k: number): void {
+    const length = nums.length
+    k = k % length
+    nums.push(...nums)
+    nums.splice(0, length - k)
+    k !== 0 && nums.splice(-k)
+}
+
+const a = [1, 2]
+rotate3(a, 1)    // [5,6,7,1,2,3,4]
+console.log(a)
