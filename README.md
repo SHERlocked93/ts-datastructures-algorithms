@@ -116,6 +116,7 @@
 > | 344  | [反转字符串](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0344_反转字符串.ts) | ★☆☆    |
 > | 977  | [有序数组的平方](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0977_有序数组的平方.ts) | ★☆☆    |
 > | 8    | [字符串转换整数](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0008_字符串转换整数.ts) | ★★☆    |
+> | 189  | [旋转数组](https://github.com/SHERlocked93/ts-datastructures-algorithms/blob/master/08_leetcode题解/src/0189_旋转数组.ts) | ★★☆    |
 
 ### 8.2 散列表
 
